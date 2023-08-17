@@ -6,20 +6,23 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>What is the HTML Form</h1>
+    <p>A HTML forms used to collect user info.</p>
+    <p>Example:</p>
     <h3>User Login</h3>
     <form action="">
         <fieldset>
             <legend>Personal Information</legend>
-            <label for="">First Name:</label> <br>
-            <input type="text" placeholder="Your first name.." value="Jon"> <br>
-            <label for="">Last Name:</label> <br>
-            <input type="text" placeholder="Your last name.." value="Doe"> <br>
-            <label for="">Your password:</label> <br>
-            <input type="password"> <br>
+            <label for="firstName">First Name:</label> <br>
+            <input type="text" id="firstName" placeholder="Your first name.." value="Jon"> <br>
+            <label for="lastName">Last Name:</label> <br>
+            <input type="text" id="lastName" placeholder="Your last name.." value="Doe"> <br>
+            <label for="password">Your password:</label> <br>
+            <input type="password" id="password"> <br>
             <label for="">Check your city:</label> <br>
             <input type="checkbox" name="" id=""><label for="">Bishkek</label> <br>
             <input type="checkbox" name="" id=""> <label for="">Ankara</label> <br>
-            <input type="checkbox" name="" id=""> <label for="">Milan</label>
+            <input type="checkbox" name="" id=""> <label for="">Milan</label> <br>
             <button>Submit</button>
         </fieldset>
     </form>
